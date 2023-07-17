@@ -1188,6 +1188,10 @@ address {
 }
 
 .menu-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
   position: fixed;
   top: 0;
   left: 0;
@@ -1240,3 +1244,22 @@ address {
 .mobile-menu .li:not(:last-child) {
   margin-bottom: 40px;
 } */
+
+.mobail-address {
+  color: var(--iris, #4d5ae5);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+}
+.mobail-address-link {
+  color: var(--slate, #434455);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4px;
+}
+.mobail-list-items:not(:last-child) {
+  margin-bottom: 40px;
+}
