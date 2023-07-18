@@ -188,8 +188,6 @@ body {
     flex-direction: column;
     max-width: 264px;
     margin: 0 auto;
-
-    /* gap: 24px; */
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1157.98px) {
@@ -376,8 +374,6 @@ address {
   text-align: center;
   background-repeat: no-repeat;
   padding: 112px 0;
-  /* width: 428px;
-  height: 432px; */
   background-size: cover;
   background-position: center;
   margin: 0 auto;
@@ -456,11 +452,9 @@ address {
   color: var(--white-color);
   text-align: center;
   font-weight: 700;
-  /* font-size: 56px; */
   font-size: 36px;
   line-height: 1.1;
   letter-spacing: 0.02em;
-  /* max-width: 496px; */
   max-width: 320px;
   margin: 0 auto;
 }
@@ -574,13 +568,6 @@ address {
     display: none;
   }
 }
-/* mobail-screen */
-/* @media only screen and (min-width: 360px) (max-width:767px) {
-  .strategy-list {
-    
-     
-  }
-} */
 /* tablet-screen andd desktop-screen */
 @media only screen and (min-width: 768px) and (max-width: 1157px) {
   .strategy-list {
@@ -608,7 +595,12 @@ address {
   margin-top: 8px;
   justify-content: center;
 }
-
+@media only screen and (max-width: 767.98px) {
+  .team-list {
+    justify-content: start;
+    margin-top: 0;
+  }
+}
 .team-svg {
   margin: 12px;
   fill: #f4f4fd;
@@ -659,8 +651,6 @@ address {
   display: flex;
   padding: 0;
   flex-wrap: wrap;
-  /* gap: 24px; */
-  /* padding: 0; */
   column-gap: 16px;
   row-gap: 72px;
 }
@@ -745,7 +735,6 @@ address {
   font-weight: 800;
   letter-spacing: 0.03em;
   color: var(--iris-color);
-  /* margin-right: 76px; */
   display: inline-block;
 }
 .footer-slogan {
@@ -757,7 +746,6 @@ address {
 @media only screen and (max-width: 767.98px) {
   .footer-container {
     display: flex;
-    /* align-items: baseline; */
     flex-direction: column;
   }
 }
@@ -855,11 +843,7 @@ address {
       FORM-FOOTER
 ====================
 */
-/* .footer-form {
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-} */
+
 @media only screen and (max-width: 767.98px) {
   .footer-form {
     display: flex;
@@ -895,10 +879,6 @@ address {
     margin-top: 72px;
   }
 }
-
-/* .footer-container-email {
-  margin-left: 80px;
-} */
 .form-label {
   display: flex;
   margin-bottom: 16px;
@@ -1167,8 +1147,6 @@ address {
   font-size: 18px;
   outline: transparent;
   background-color: transparent;
-  /* transition: border-color var(--anim);
-  border-color: 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -1355,8 +1333,5 @@ address {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobail-team-container {
-  gap: 56px;
-  justify-content: start;
   margin-top: 46px;
-  display: flex;
 }
