@@ -291,6 +291,13 @@ body {
     display: none;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1157.98px) {
+  .header-list-address {
+    row-gap: 12px;
+    display: flex;
+    flex-direction: column;
+  }
+}
 @media only screen and (max-width: 767.98px) {
   .menu-toggle-icon {
     stroke: #2e2f42;
@@ -342,6 +349,13 @@ address {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--slate-color);
+}
+@media only screen and (min-width: 768px) and (max-width: 1157.98px) {
+  .header-address {
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+  }
 }
 .header-address:focus {
   color: var(--ocean-color);
@@ -597,8 +611,8 @@ address {
 }
 @media only screen and (max-width: 767.98px) {
   .team-list {
-    justify-content: start;
-    margin-top: 0;
+    justify-content: center;
+    margin-top: 8px;
   }
 }
 .team-svg {
@@ -1076,6 +1090,15 @@ address {
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media only screen and (max-width: 767.98px) {
+  .modal {
+    width: 95%;
+    max-width: 392px;
+    height: 95%;
+    max-height: 584px;
+    overflow: scroll;
+  }
+}
 .modal-batton {
   display: flex;
   position: absolute;
@@ -1113,7 +1136,6 @@ address {
 ====================
 */
 .modal-legend {
-  width: 360px;
   margin-bottom: 16px;
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -1297,6 +1319,10 @@ address {
   row-gap: 40px;
   list-style: none;
   margin-top: 40px;
+}
+
+.mobail-tem-list {
+  justify-content: start;
 }
 
 .mobail-address {
